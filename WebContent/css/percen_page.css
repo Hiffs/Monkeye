@@ -1,0 +1,159 @@
+body{
+	font-family: Microsoft YaHei,Helvetica,Arial,sans-serif;
+}
+.container{
+	margin-top: 30px;
+}
+.content{
+	width: 1162px;
+	height: 600px;
+	border: 1px solid #e1e1e1;
+	margin: 0 auto;
+}
+.con_left{
+	float: left;
+	width: 200px;
+	height: 600px;
+	border-right:1px solid #e1e1e1;
+}
+.con_right{
+	float: right;
+	width: 921px;
+	height: 600px;
+	margin-left: 40px;
+}
+h2{
+	font-size: 22px;
+	margin: 35px 0;
+	font-weight: 400;
+	text-indent: 56px;
+}
+.con_left a{
+	float: left;
+	width: 202px;
+	height: 40px;
+	color: #333;
+	font-size: 18px;
+	line-height: 40px;
+	text-indent: 65px;
+}
+.active{
+	background: #ed3931;
+	color: #fff !important;
+}
+.right_h{
+	width: 922px;
+	height: 24px;
+	padding: 26px 0;
+	border-bottom: 1px solid #e1e1e1;
+	margin-bottom: 30px;
+	color: #ed3931;
+	font-size: 18px;
+}
+.avatar_content{
+	width: 270px;
+	height: 408px;
+	text-align: center;
+	position: relative;
+	float: left;
+}
+.avatar_content img{
+	width: 258px;	
+	height: 258px;
+	overflow: hidden;
+	border: 0;
+}
+/*img[src=""],img:not([src]){opacity:0;}*/ 
+#fileupload{
+	cursor: pointer;
+	outline: none;
+	width:182px;
+	height: 65px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	padding-top:30px
+}
+#ac{
+	width: 182px;
+	height: 56px;
+	margin-top: 20px;
+	background: #e6e6e6;
+	border: none;
+	position: absolute;
+	border-radius: 8px;
+	left: 44px;
+	font-size: 18px;
+	color: #555;
+}
+.tips{
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	color: #555;
+}
+.info_content{
+	width: 495px;
+	height: 490px;
+	float: left;
+	margin-left: 58px;
+}
+.info{
+	height: 30px;
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+.info_content p{
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	text-align: right;	
+	color: #333;
+}
+input[type='text']{
+	outline: none;
+	width: 240px;
+	height: 30px;
+	text-indent: 11px;
+	border:1px solid #999;
+	border-radius: 4px;
+}
+label{
+	color: #666;
+	font-size: 14px;
+	margin:0 10px 0 2px;
+}
+select{
+	height: 30px;
+	border-color: #999;
+	border-radius: 5px;
+	outline: none;
+}
+#se2,#se3{
+	width: 46px;
+}
+span{
+	color: #666;
+	font-size: 14px;
+}
+.inf{
+	height: 30px;
+	text-indent: 85px;
+}
+.submit{
+	background: #ed3931;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	width:100px;
+	height: 40px;
+	color: #fff;
+	margin-left: 85px;
+	outline: none;
+	cursor: pointer;
+}
+.submit:hover{
+	background: #d3332c;
+}
+#llal{
+	background: #000000;	
+}

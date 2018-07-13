@@ -1,0 +1,27 @@
+.footer{
+    background-color: #262426;
+	margin: 82px auto 0;
+	min-width: 1200px;
+	padding: 56px 0;
+}
+.footer p{
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.footer p, .footer p a{
+	color: #666;
+}
+.friendly-links span{
+	border: 1px solid #444;
+	display: inline-block;
+	height: 12px;
+	margin: 0 7px;
+	position: relative;
+	top: 1px;
+}
+.friendly-links a{
+	color: orangered;
+}

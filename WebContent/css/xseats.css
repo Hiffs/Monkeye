@@ -1,0 +1,147 @@
+.order-progress-bar{
+    height: 60px;
+    width: 100%;
+    margin: 40px 0;
+    text-align: center;
+}
+.order-progress-bar .step{
+    float: left;
+    width: 25%;
+}
+.order-progress-bar .step-num{
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffd8d7;
+    position: relative;
+    top: 10px;
+}
+.order-progress-bar .done .step-num{background-color: #f03d37;}
+.order-progress-bar .bar{
+    width: 0;
+    height: 4px;
+    border-left: 150px solid #ffd8d7;
+    border-right: 150px solid #ffd8d7;
+}
+.order-progress-bar .first .bar{
+	border-left-color: transparent !important;
+}
+.order-progress-bar .last .bar{
+	border-right-color: transparent !important;
+}
+.order-progress-bar .done .bar{border-color: #f03d37;}
+.order-progress-bar .step-text{
+    font-size: 14px;
+    color: #999;
+    display: inline-block;
+    margin-top: 10px;
+}
+.order-progress-bar .done .step-text{color: #f03d37;}
+.main{
+    width: 700px;
+    margin: 0 auto;
+    border:1px solid #d3d3d3;
+}
+.front{
+    width: 320px;
+    margin: 5px 32px 45px 32px;
+    background-color: #f0f0f0;	
+    color: #666;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+}
+.booking_area {
+    float: right;
+    position: relative;
+    width:200px;
+    height: 450px; 
+    margin: 20px auto;
+}
+.booking_area h3 {
+    margin: 5px 5px 0 0;
+    font-size: 16px;
+}
+.booking_area p{
+    line-height:26px; 
+    font-size:16px; 
+    color:#999
+}
+.booking_area p span{color:#666}
+div.seatCharts-cell {
+    color: #182C4E;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    margin: 4px;
+    float: left;
+    text-align: center;
+    outline: none;
+    font-size: 14px;
+}
+div.seatCharts-seat {
+    color: #fff;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;}
+div.seatCharts-row {height: 35px;}
+div.seatCharts-seat.available {background-color: #e5e5e5;}
+div.seatCharts-seat.focused {background-color: #76B474;border: none;}
+div.seatCharts-seat.selected {background-color: #76B474;}
+div.seatCharts-seat.unavailable {background-color: #ef4238;cursor: not-allowed;}
+div.seatCharts-container {
+    border-right: 1px dotted #adadad;
+    width: 400px;
+    padding: 20px;
+    float: left;
+}
+div.seatCharts-legend {
+    padding-left: 0px;
+    position: absolute;
+    bottom: 16px;
+}
+ul.seatCharts-legendList {padding-left: 0px;}
+.seatCharts-legendItem{
+    float:left; 
+    width:90px;
+    margin-top: 10px;
+    line-height: 2;
+}
+span.seatCharts-legendDescription {
+    margin-left: 5px;
+    line-height: 30px;
+}
+.checkout-button {
+    display: block;
+    width:80px; 
+    height:24px; 
+    line-height:20px;
+    margin: 10px auto;
+    border:1px solid #999;
+    font-size: 14px; 
+    cursor:pointer
+}
+#seats_chose {
+    max-height: 150px;
+    overflow-y: auto;
+    overflow-x: none;
+    width: 200px;
+}
+#seats_chose li{
+    float:left; 
+    width:72px; 
+    height:26px; 
+    line-height:26px; 
+    border:1px solid #d3d3d3; 
+    background:#f7f7f7; 
+    margin:6px; 
+    font-size:14px; 
+    font-weight:bold; 
+    text-align:center
+}

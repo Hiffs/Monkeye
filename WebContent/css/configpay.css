@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.warning{
+    font-size: 12px;
+    color: #666;
+    padding-left: 18px;
+    background-size: 12px;
+    background-position-y: 2px;
+    margin-bottom: 8px;
+}
+
+.center{text-align: center;}

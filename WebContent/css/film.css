@@ -1,0 +1,221 @@
+@charset "UTF-8";
+.btn{
+	background-color: #df2d2d;
+	color: #fff;
+	display: inline-block;
+	font-size: 15px;
+	line-height: 25px;
+	padding: 2px 15px;
+}
+.banner{
+	background: #392f59;
+}
+.banner .wrapper{
+	height: 376px;
+	margin: 0 auto;
+	position: relative;
+	width: 1200px;
+}
+.banner .wrapper .celeInfo-left{
+	float: left;
+	overflow: hidden;
+	position: relative;
+	top: 70px;
+	width: 300px;
+	z-index: 9;
+}
+.celeInfo-left .avatar-shadow,
+.cinema-left .avatar-shadow{
+	background: rgba(0,0,0,0);
+	height: 330px;
+	margin: 0 30px;
+	padding-bottom: 40px;
+	position: relative;
+	width: 240px;	
+}
+.celeInfo-left .avatar-shadow .avatar{
+	border: 4px solid #fff;
+	height: 322px;
+	width: 232px;
+}
+.banner .wrapper .celeInfo-right{
+	margin-left: 300px;
+	margin-right: 30px;
+	top: 70px;
+	height: 300px;
+	position: relative;
+}
+.movie-brief-container{
+	color: #fff;
+	font-size: 14px;
+	position: absolute;
+	z-index: 1;	
+}
+.movie-brief-container .name{
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 32px;
+	margin-top: 0;
+	margin-bottom: 0;
+	max-height: 64px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 900px;	
+}
+.movie-brief-container .ename{
+	font-size: 18px;
+	line-height: 1.3;
+	margin-bottom: 14px;
+	width: 340px;
+}
+.ellipsis{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;	
+}
+.movie-brief-container ul{
+	list-style: outside none none;
+	margin-bottom: 20px;
+	padding-left: 0;
+	width: 250px;	
+}
+.movie-brief-container ul li{
+	line-height: 100%;
+	margin: 12px 0;
+}
+.buyBtn{
+	bottom: 20px;
+	position: absolute;
+}
+.buyBtn .btn.buy{
+	border-radius: 2px;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 10px;
+	padding: 0;
+	text-align: center;
+	width: 250px;
+}
+.movie-stats-container{
+	left:342px;
+	position: absolute;
+	top: 158px;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.main-content-container{margin-top: 80px;}
+.main-content-container>div.main-content{
+	width: 730px;
+	float: left;
+}
+.tab-container .tab-title-container{border-bottom: 2px solid #eee;}
+.tab-container .tab-title-container .tab-title{
+	cursor: pointer;
+  	float: left; 
+	margin-right: 30px;
+	margin-bottom: -2px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	color: #333;
+	line-height: 100%;
+	border-bottom: 2px solid transparent;
+}
+.tab-container .tab-title-container .tab-title.active{
+	color: #ef4238;
+	border-bottom-color: #ef4238;
+}
+.tab-container .tab-content-container .tab-content{display: none;}
+.tab-container .tab-content-container .tab-content.active{display: block;}
+.tab-desc{margin-top: 40px;}
+.module{position: relative; margin-bottom: 60px;}
+.module .mod-title h3{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-size: 18px;
+	color: #333;
+	line-height: 18px;
+}
+.module .mod-title .more{
+	background:  rgba(0,0,0,0) no-repeat scroll 100% center;
+	color: #999;
+	cursor: pointer;
+	float: right;
+	font-size: 14px;
+	padding-right: 14px;
+}
+.module .mod-title h3:before{
+	float: left;
+	content: "";
+	display: inline-block;
+	width: 4px;
+	height: 18px;
+	margin-right: 6px;
+	background-color: #ef4238;
+}
+.module .mod-content{
+	margin-top: 20px;
+	color: #333;
+}
+.tab-desc .dra{font-size: 14px; line-height: 26px;}
+.celebrity-container{font-size: 16px; color: #333;}
+.tab-desc .celebrity-container .celebrity-group:first-child{margin-left: 0;}
+.tab-desc .celebrity-container .celebrity-group{ float:left; margin-left: 30px;}
+.celebrity-container .celebrity-type{margin-bottom: 16px;}
+.celebrity-container .celebrity-list{margin-left: -20px;}
+.tab-desc .celebrity-container .celebrity-group .celebrity{margin-bottom: 0;}
+.celebrity-container .celebrity{
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 128px;
+}
+.celebrity-container .celebrity .portrait{
+	height: 170px; 
+	margin-bottom: 6px;
+	overflow: hidden;
+	width: 128px;
+}
+.celebrity-container .celebrity .portrait img{
+	height: 170px;
+	width: 128px;
+}
+.celebrity-container .celebrity .name{
+	color: #333;
+	line-height: 1.2;
+	margin-top: 8px;
+}
+.celebrity-container .celebrity .role{
+	color: #666;
+	font-size: 14px;
+	line-height: 1.2;
+}
+.celebrity-container .celebrity .name, .celebrity-container .celebrity .role{
+	display: inline-block;
+	margin-bottom: -1px;
+	overflow: hidden;
+	padding-bottom: 1px;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 128px;
+}
+.tab-celebrity .celebrity-container{margin-top: 40px;}
+.tab-celebrity .celebrity-container .celebrity-group{margin-bottom: 30px;}
+.tab-celebrity .celebrity-container .celebrity-group .num{
+	line-height: 16px;
+	font-size: 14px;
+	color: #999;
+}
+.footer{
+	clear:both;
+}
+
+
+

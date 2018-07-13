@@ -1,0 +1,204 @@
+body{
+	background: url(../img/login_bg.gif) repeat-x;
+	font-family:font-family: Microsoft YaHei,Helvetica,Arial,sans-serif;
+}
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.header{
+	height: 119px;
+}
+.w{
+	width:900px;
+	margin:0 auto;
+}
+#h_box1{
+	position: relative;
+}
+#h_box1 a{
+	position: absolute;
+	top: 20px;
+	}
+.header h2{
+	width: 100px;
+	position: absolute;
+	left: 280px;
+	top: 40px;
+	font-weight: 500;
+	color: #4b4a4a;
+	cursor: default;
+}
+.index{
+	position: relative;
+	height: 475px;
+	background: #da373a;
+}
+.index img{
+		position: absolute;
+		top:68px;
+}
+.i_box1{
+	width: 346px;
+	float: right;
+	margin-top: 20px;
+	background: white ;
+}
+.ii1{
+	width: 284px;
+	height: 16px;
+	padding: 12px 31px;
+	font-size: 12px;
+	color: #999;
+	background: #fff8f0;
+}
+.icon_tips1{
+	background: url(../img/infor.ico) no-repeat;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align:middle;
+}
+.ii1 p{
+	display: inline-block;
+	height: 16px;
+	vertical-align:middle;
+
+}
+.ii2{
+	height: 55px;
+	border-bottom: 1px solid #edeaea;
+}
+.ii2 p{
+	margin:16px 0;
+	text-indent: 130px;
+	color: #666695;
+	font-size: 18px;
+}
+.ii2 p:hover{
+	color: #e4393c;	
+	font-weight: bold;
+}
+
+.msg{
+	background: url(../img/info.ico) no-repeat 10px 0;
+	border: 1px solid #faccc6;
+	color: #e4393c;
+	width: 306px;
+	margin: 20px 0 0 20px;
+	text-indent: 40px;
+	line-height: 10px;
+	font-size: 12px;
+	padding: 5px 0;
+}
+.ii3{
+	width: 306px;
+	padding: 20px 20px;
+	border-bottom: 1px solid #edeaea;
+}
+.username{
+	width: 304px;
+	margin-bottom: 20px;
+	box-shadow: none;
+	border: 1px solid #bdbdbd;
+	background: url(../img/name_label.ico) no-repeat;
+}
+#username{
+	width: 265px;
+	height: 38px;
+	margin-left: 39px;
+	outline: none;
+	border: none;
+	font-size: 14px;
+	text-indent: 11px;
+}
+.password{
+	width: 304px;
+	margin-bottom: 20px;
+	box-shadow: none;
+	border: 1px solid #bdbdbd;
+	background: url(../img/pwd_label.ico) no-repeat;
+}
+#password{
+	width: 265px;
+	height: 38px;
+	margin-left: 39px;
+	outline: none;
+	border: none;
+	font-size: 14px;
+	text-indent: 11px;
+}
+.fg_pwd{
+	width: 306px;
+	height: 18px;
+}
+.fg_pwd a{
+	color: #666;
+	float: right;
+	font-size: 14px;
+}
+.fg_pwd a:hover{
+	color: #cd383b;
+	text-decoration: underline;
+}
+.lo{
+	width: 303px;
+	height: 32px;
+	border: 1px solid #cb2a2d;
+	margin:22px 0 16px;
+}
+.bt{
+	color: white;
+	background: #e4393c;
+	border: none;
+	width: 303px;
+	height: 32px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.bt:hover{
+	background: #ce3436;
+}
+.ii4{
+	width: 306px;
+	height: 52px;
+	padding: 0 20px;
+}
+.ii4 div{
+	width: 78px;
+	height: 100%;
+	float: right;
+}
+#rgt{
+	display: inline-block;
+	margin: 18px 0;
+	background: url(../img/jiantou.ico) no-repeat;
+	color: #b61d1d;
+	font-size: 14px;
+	text-indent: 20px;
+	line-height: 16px;
+}
+#rgt:hover{
+	text-decoration:underline;	
+}	
+.footer{
+	height: 48px;
+}
+.copy{
+	text-align: center;
+	font-size: 12px;
+	color: #888;
+	margin-top: 20px;
+}
+.copy a{
+	color: #888;	
+}
+.copy a:hover{
+	color:#e2231a;
+}
+input:-webkit-autofill {  
+ 	-webkit-box-shadow: 0 0 0px 1000px white inset;  
+ 	-webkit-text-fill-color:black;//鑷姩濉厖鍚庡瓧浣撻鑹�  
+}  

@@ -1,0 +1,248 @@
+body{
+	font-family: Microsoft YaHei,Helvetica,Arial,sans-serif;	
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-size: 18px;
+    color: #ef4238;
+    width: 20px;
+    display: inline-block;
+}
+.banner{
+    min-width: 1200px;
+    width: 100%;
+}
+.slider{
+    display: block;
+    height: 440px;
+    margin-bottom: 88px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    box-sizing: border-box;
+    background-color: brown;
+}
+.slick-list{
+    clear: both;
+    overflow: auto;
+    text-align: center;
+}
+.slick-list li{
+    list-style: none;
+}
+.slick-list ul li{
+    float: left;
+}
+.slick-dots{
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    bottom: 20px;
+    display: block;
+}
+.slick-dots li{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+}
+.slick-dots li, .slick-dots li button{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+.slick-active button{
+    color: #ec443f;
+    opacity: 1;
+}
+.slick-dots li button{
+    color: #000;
+    font-size: 6px;
+    height: 20px;
+    left: 0;
+    line-height: 20px;
+}
+.content{
+	width: 1200px;
+	height: 1950px;
+	margin: 62px auto 0;
+}
+.main{
+	width: 801px;
+	height: 100%;
+	padding: 0 18px;
+	margin-right: 363px;
+}
+.movie_grif{
+	width: 801px;
+	height: 1950px;
+}
+.textcolor_red{
+	color: #ef4238 !important;
+}
+.textcolor_blue{
+	color: #2d98f3 !important;
+}
+.panel{
+	width: 750px;
+	height: 618px;
+	margin-top: 62px;
+}
+.panel_header{
+	width: 740px;
+	height: 26px;
+	position: relative;
+}
+.panel{
+	width: 750px;
+	height: 618px;
+}
+.panel_more{
+	font-size: 14px;
+	line-height: 16px;
+	margin-top: 10px;
+	position: absolute;
+	left: 700px;
+	top: 0;
+}
+.sp{
+	float: right;
+	width: 8px;
+	height: 14px;
+	vertical-align:middle;
+}
+.sp1{
+	background: url(../img/red_arrow.png);	
+}
+.sp2{
+	background: url(../img/blue_arrow.png);
+}
+.panel_more a:hover{
+		text-decoration:underline;
+}
+.panel_title{
+	font-size: 26px;
+	line-height: 26px;
+	color: #ffb400;
+}
+.panel_content{
+	background: white;
+	width: 750px;
+	height: 569px;
+	margin-top: 23px;
+}
+.movie_list{
+	width: 775px;
+	height: 578px;
+	margin: -29px 0 20px -25px;
+}
+.movie_list dd{
+	float: left;
+	width: 160px;	
+	height: 259px;
+	margin: 30px 0 0 30px;
+}
+#dd{
+	float: left;
+	width: 350px;	
+	height: 259px;
+	margin: 30px 0 0 30px;
+}
+.moive_item{
+	width:160px;
+	height: 259px;
+	border: 1px solid #efefef;
+	margin: -1px;
+	position: relative;
+}
+.moive_item2{
+	width:160px;
+	height: 220px;
+	border: 1px solid #efefef;
+	margin: -1px;
+	position: relative;
+}
+.qie{
+	width:350px;
+	height: 220px;
+	border: 1px solid #efefef;
+	margin: -1px;
+	position: relative;
+}
+.qie_poster{
+	background-color: #fcfcfc;
+	width: 350px;
+	height: 220px;
+	overflow: hidden;
+	position: relative;
+}
+.movie_poster{
+	background-color: #fcfcfc;
+	width: 160px;
+	height: 220px;
+	overflow: hidden;
+	position: relative;
+}
+.movie_info{
+	color: #fff;
+	position: absolute;
+	bottom: 7px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+.movie_title{
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0 10px;
+	padding-right:20px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.movie_details{
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+	overflow: hidden;
+}
+.a_buy{
+	display: block;
+	font-size: 14px;
+	color: #EF4238;
+}
+.a_buy:hover{
+	color: white;
+	background: #ef4238;
+	text-decoration: none;
+}
+.movie_wish{
+	font-size: 14px;
+	color: #FFB400;
+	background: #fbfbfb;
+	text-align: left;
+	padding-left: 10px;
+}
+.yushou{
+	color: #2D98F3;
+	display: inline-block;
+	width: 50px;
+	text-align: center;
+	float: right;
+	border-left: 1ppx solid #666;
+}
+.yushou:hover{
+	background: #2D98F3;	
+	color: #fff;
+	text-decoration: none;
+}
+.ondate{
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+}

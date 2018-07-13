@@ -1,0 +1,165 @@
+body{
+	font-family: Microsoft YaHei,Helvetica,Arial,sans-serif;
+}
+.order_box{
+	width: 880px;
+	height:186px;
+	border: 1px solid #e5e5e5;
+	margin: 0 40px 30px 0;
+}
+.order_header{
+	background: #f7f7f7;
+	font-size: 14px;
+	padding: 16px 20px;
+}
+.order_date{
+	color: #333;
+	display: inline-block;
+	margin-right: 30px;
+}
+.order_id{
+	color: #999;
+}
+.del_order{
+	width: 15px;
+	height: 16px;
+	background: url(../img/del.png);
+	float: right;
+	cursor: pointer;
+}
+.order_body{
+	width: 860px;
+	height: 95px;
+	padding: 20px 0 20px 20px;
+}
+.order_body>div{
+	display: inline-block;
+	vertical-align: top;	
+}
+.order_poster{
+	width: 66px;
+	height: 91px;
+	border: 2px solid #fff;
+	margin-right: 11px;
+	box-shadow: 0 1px 2px 0 hsla(0,0%,53%,.5);
+}
+.order_content{
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+}
+.movie-name{
+	font-size: 16px;
+	font-weight: 700;
+	color: #333;
+	margin: 4px 0 7px -6px;
+}
+.ciname-name,
+.hall-ticket{
+	font-size: 12px;
+	color: #999;
+	margin-bottom: 4px;
+}
+.hall-ticket span{
+	display: inline-block;
+	margin-right: 5px;
+	font-size: 12px;
+	color: #999;
+}
+.show-time{
+	color: #f03d37;
+	font-size: 12px;
+}
+.order_price,.order_status,.order_action{
+	width: 12%;
+	color: #333;
+	font-size: 14px;
+	line-height: 95px;
+}
+.order_status{
+	width: 15%;
+}
+.action_n{
+	line-height: normal;
+	display: inline-block;
+	vertical-align: middle;
+}
+.pay-btn{
+	display: block;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #f03d37;
+	color: #fff;
+	box-shadow: 0 2px 10px -2px #f03d37;
+	border-radius: 15px;
+	margin-bottom: 8px;
+}
+.order-details{
+	display:inline-block;	
+	color: #333;
+	vertical-align: middle;
+	line-height: 20px;
+	text-indent: 12px;
+}
+a:hover{
+	text-decoration: none;
+}
+.model_con{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	background: rgba(0,0,0,.4);
+}
+.model{
+	width: 460px;
+	height: 155px;
+	padding: 30px 0;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	text-align: center;
+}
+.icon{
+	background: url(../img/yicon.jpg);
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+.ti{
+	font-size: 14px;
+	color: #666;
+	margin: 12px 0 12px;
+	vertical-align: middle;
+}
+.ok_btn{
+	width: 106px;
+	height: 42px;
+	color: #fff;
+	background: #f03d37;
+	box-shadow: 0 2px 10px -2px #f03d37;
+	border-radius: 100px;
+	line-height: 42px;	
+	cursor: pointer;
+	display: inline-block;
+}
+.cl_btn{
+	width: 106px;
+	height: 42px;
+	color: #666;
+	background: #e5e5e5;
+	box-shadow: 0 2px 10px -2px #777;
+	border-radius: 100px;
+	line-height: 42px;	
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 10px;
+}
